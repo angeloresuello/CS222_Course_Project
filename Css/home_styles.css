@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Images/Guitarcover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;               
+    display: flex;                  
+    flex-direction: column;
+    background-color: black;
+    overflow-x: hidden;
+}
+nav {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    font-size: 25px;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.nav-logo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+main {
+    position: absolute;
+    color: #fff;
+    top: 210px;
+    left: 300px;
+    font-size: 30px;
+    
+}
+
+main h1 {
+    color: rgb(246, 121, 4);
+    font-size: 90px;
+}
+
+main p {
+    font-weight: bold;
+    width: 50%;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    position: absolute; 
+    top: 15%;
+    left: 45%; 
+    transform: translateX(-50%); 
+    width: 100%;
+    max-width: 90%; 
+    height: auto;
+}
+
+.button {
+    text-decoration: none;
+    width: 100%; 
+    max-width: 500px; 
+    min-width: 200px;
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+    background-color: #ff9d00;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #020100;
+}
+
+.Des1 {
+    margin-top: 800px;
+    background-color:black;
+    margin-left: -11%;
+}
+
+.Des1 h1 {
+    font-size: 70px;
+
+}
+
+.Des1 h2{
+    font-size: 40px;
+}
+
+.Des1 p{
+    width: 40%;
+}
+
+.Des1 img{
+    width: 40%; /* Adjust the value as needed */
+    float: right; 
+    margin-right: 170px;
+    margin-bottom: 90px
+}
+
+.Des2 {
+    margin-top: 350px;
+    background-color: black;
+    margin-right: 5%;
+    text-align: left;
+}
+
+
+.Des2 h1 {
+    font-size: 70px;
+    margin-left: 50%;
+
+}
+
+.Des2 h2{
+    font-size: 40px;
+    margin-left: 50%;
+}
+
+.Des2 p{
+    margin-left: 50%;
+}
+
+.Des2 img{
+    width: 47%; /* Adjust the value as needed */
+    float: left; 
+    margin-left: -11%;
+    margin-bottom: 90px;
+    margin-top: -50px
+}
+
+.courses{
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.section-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+.beginnerbutton{
+    width: 90%;
+    padding: 20px;
+    background-color: #008106;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.intermediatebutton{
+    width: 90%;
+    padding: 20px;
+    background-color: #c9b502;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.beginnerbutton:hover {
+    background-color: #015403;
+    cursor: pointer;
+}
+.intermediatebutton:hover {
+    background-color: #606302;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+footer .footer-content {
+    margin-left: 80px;
+}
+
+.footer-content p{
+    margin-left: 17%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 15%;
+}
+
+
+
+
+.hr1{
+    margin-top: 18%;
+    margin-right: 10%;
+}
+
+.hr2{
+    margin: 5%;
+    margin-right: 15%;
+}

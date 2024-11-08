@@ -1,0 +1,714 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Images/Guitarcover2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;               
+    display: flex;                  
+    flex-direction: column;
+    background-color: black;
+   overflow-x: hidden;
+}
+
+
+
+nav {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    font-size: 25px;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.nav-logo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+main {
+    position: absolute;
+    color: #fff;
+    top: 210px;
+    left: 250px;   
+    font-size: 30px;
+    
+}
+
+main h1 {
+    color: rgb(246, 121, 4);
+    font-size: 90px;
+    width: 50%;
+}
+
+main p {
+    font-weight: bold;
+    width: 50%;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    position: relative; 
+    margin-top: 5%;
+    left: 45%; 
+    transform: translateX(-50%); 
+    width: 100%;
+    max-width: 90%; 
+    height: auto;
+}
+
+.button {
+    text-decoration: none;
+    width: 100%; 
+    max-width: 500px; 
+    min-width: 200px;
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+    background-color: #ff9d00;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #020100;
+}
+
+.Guitaranatomy h1{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 810px;
+}
+
+.Guitaranatomy h2 {
+    text-align: center;
+    margin-right: 10%;
+}
+
+.Guitaranatomy img{
+    position: absolute;
+    align-items: center;
+    left: 0%;
+    width: 90%
+}
+
+
+
+.guitar-parts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Space between columns */
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    margin-top: 57%;
+    margin-right: 240px;
+    text-align: center;
+}
+
+.guitar-part {
+    padding: 15px;
+    background-color: #a86201;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.guitar-part h2 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.guitar-part p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #ffffff;
+    width: 90%;
+    margin-left: 30px;
+}
+
+.hr1 {
+    margin-top: 100px;
+    margin-right: 210px;
+}
+
+
+.Tuning h1{
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 100px;
+    
+}
+
+.Tuning h2{
+    text-align: center;
+    margin-right: 10%;
+}
+
+.Tuning img{
+    position: absolute;
+    align-items: center;
+    left: 24%;
+    width: 40%;
+}
+
+.E{
+    float:left;
+    margin-top: 31.5%;
+    margin-left: 9%
+}
+
+.A {
+    float:left;
+    margin-top: 22%;
+    margin-left: -14%;
+}
+
+.D {
+    float:left;
+    margin-top: 13%;
+    margin-left: -14%;
+}
+
+.G {
+    float: right;
+    margin-top: 13%;
+    margin-right: 23%;
+
+}
+
+.B {
+    float: right;
+    margin-top: 6%;
+    margin-right: 23%;
+}
+
+.High-E {
+    float: right;
+    margin-top: 300px;
+    margin-right: -15%;
+}
+
+.tunerdescription{
+    font-size: 30px;
+    margin-top: 55%;
+    text-align: center;
+    width: 100%;
+    margin-left: -7%;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.tunerdescription p {
+    width: 100%;
+}
+
+
+.hr2 {
+    margin-top: 100px;
+    margin-right: 210px;
+}
+
+.tuningpeg h1 {
+    text-align: left;
+    margin-left: 14.5%;
+    margin-top: 100px;
+    width: 120%;
+}
+
+.tuningpeg img{
+    float: right;
+    margin-top: -5%;
+    margin-right: 10px;
+}
+
+.tuning-guide{
+    margin-top: 5%;
+    text-align: left;
+    align-items: left;
+}
+
+.tuning-guide p {
+    margin-bottom: 300px; /* Adjusts the gap below each paragraph */
+}
+
+.tuning-guide li {
+    margin-bottom: 50px; /* Adjusts the gap between list items */
+}
+.tuning-guide ul {
+    margin-top: 50px; /* Adjusts the gap between list items */
+}
+
+.hr3{
+    margin-top: 200px;
+    margin-right: 10%;
+}
+
+.Chords h1{
+    text-align: center;
+    margin-left: 11%;
+    margin-top: 100px;
+    width: 65%;
+}
+
+.Chords img{
+    width: 30%;
+    float: left;
+    margin-top: -33%;
+    position: relative;
+
+}
+
+.Chordsdescription {
+    margin-left: 35%;
+    margin-top: 6%;
+
+}
+
+.Chordsdescription p {
+    width: 90%;
+}
+
+.Chordsdescription li {
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.Chordsdescription ul {
+    margin-top: 20px;
+}
+
+.hr4{
+    margin-top: 250px;
+    margin-right: 10%;
+}
+
+
+.Finger h1{
+    text-align: left;
+    margin-left: 21%;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.Finger img{
+    width: 60%;
+    float: right;
+    position: relative;
+}
+
+.finger-positioning{
+    text-align: left;
+}
+
+.finger-positioning h2{
+    font-size: 40px;
+}
+.finger-positioning p{
+    font-size: 30px;
+}
+
+.hr5{
+    margin-top: 150px;
+    margin-right: 10%;
+}
+
+.Strumming h1{
+    text-align: center;
+    margin-left: 17%;
+}
+
+.Strumming1 img{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+.Strumming1 h2{
+    color: rgb(255, 119, 0);
+    text-align: left;
+    margin-left: 7%;
+    font-size: 50px;
+}
+
+.Strumming1 p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.Strumming2 img{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+.Strumming2 h2{
+    color: rgb(255, 119, 0);
+    text-align: left;
+    margin-left: 7%;
+    font-size: 50px;
+}
+
+.Strumming2 p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.Strumming3 img{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+.Strumming3 h2{
+    color: rgb(255, 119, 0);
+    text-align: left;
+    margin-left: 7%;
+    font-size: 50px;
+}
+
+.Strumming3 p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.Strumming4 video{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+.Strumming4 h2{
+    color: rgb(255, 119, 0);
+    text-align: left;
+    margin-left: 7%;
+    font-size: 50px;
+}
+
+.Strumming4 p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.Strumming5 video{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+.Strumming5 h2{
+    color: rgb(255, 119, 0);
+    text-align: left;
+    margin-left: 7%;
+    font-size: 50px;
+}
+
+.Strumming5 p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.Strumming6 video{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+.Strumming6 h2{
+    color: rgb(255, 119, 0);
+    text-align: left;
+    margin-left: 7%;
+    font-size: 50px;
+}
+
+.Strumming6 p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.hr6{
+    margin-top: 150px;
+    margin-right: 10%;
+}
+
+.Basic-chords h1{
+    text-align: center;
+    margin-left: 17%;
+}
+
+.Basic-chords img{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+.Basic-chords p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.Basic-chords video{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+}
+
+.hr7{
+    margin-top: 150px;
+    margin-right: 10%;
+}
+
+.First-song h1{
+    text-align: center;
+    margin-left: 17%;
+}
+
+.First-song video{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+}
+
+.First-song p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+
+.One-day h1{
+    margin-left: 5%;
+    font-size: 70px;
+    margin-top: 5%;
+}
+
+.One-day h2{
+    margin-left: 5%;
+}
+
+.One-day pre{
+    margin-left: 5%;
+}
+
+.One-day span{
+    color: orange;
+}
+
+.hr8{
+    margin-top: 155px;
+    margin-right: 10%;
+}
+
+.Second-song h1{
+    text-align: center;
+    margin-left: 17%;
+}
+
+.Second-song video{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+}
+
+.Second-song p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+
+.Perfect h1{
+    margin-left: 5%;
+    font-size: 70px;
+    margin-top: 5%;
+}
+.Perfect h2{
+    margin-left: 5%;
+}
+
+.Perfect pre{
+    margin-left: 5%;
+}
+
+.Perfect span{
+    color: orange;
+}
+
+.hr9{
+    margin-top: 150px;
+    margin-right: 10%;
+}
+
+.Other-chords h1 {
+    text-align: center;
+    width: 90%;
+}
+
+.Other-chords p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+.Other-chords img{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-left: 110px;
+
+}
+
+.hr10{
+    margin-top: 150px;
+    margin-right: 10%;
+}
+
+.Congrats h1 {
+    text-align: center;
+    width: 90%;
+}
+
+.Congrats p{
+    text-align: left;
+    width: 80%;
+    margin-left: 7%;
+    font-size: 35px;
+}
+
+
+.section-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+.homebutton{
+    width: 90%;
+    padding: 20px;
+    background-color: #ba3200;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.intermediatebutton{
+    width: 90%;
+    padding: 20px;
+    background-color: #c9b502;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.homebutton:hover {
+    background-color: #6c3101;
+    cursor: pointer;
+}
+.intermediatebutton:hover {
+    background-color: #606302;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+footer .footer-content {
+    margin-left: 80px;
+}
+
+.footer-content p{
+    margin-left: 17%;
+}
