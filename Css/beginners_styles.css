@@ -2,6 +2,15 @@ html{
     scroll-behavior: smooth;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
@@ -14,7 +23,7 @@ body{
     display: flex;                  
     flex-direction: column;
     background-color: black;
-   overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -22,7 +31,7 @@ body{
 nav {
     background-color: black;
     width: 100%;
-    padding: 10px;
+    padding: 7px;
 }
 
 nav ul {
@@ -31,7 +40,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
-    font-size: 25px;
+    font-size: 16px;
     align-items: center;
 }
 
@@ -53,7 +62,7 @@ nav ul li a:hover {
 
 .nav-logo {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
     margin-top: 0;
     padding: 0;
@@ -63,32 +72,40 @@ main {
     position: absolute;
     color: #fff;
     top: 210px;
-    left: 250px;   
-    font-size: 30px;
     
 }
 
 main h1 {
     color: rgb(246, 121, 4);
-    font-size: 90px;
-    width: 50%;
+    font-size: 50px;
 }
 
 main p {
     font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.intro h1{
+    position: relative;
+    left: 10%;
+}
+
+.intro p{
+    position: relative;
+    left: 10%;
+    top: 10%;
     width: 50%;
 }
 
 .button-container {
     display: flex;
-    gap: 20px;
     justify-items: center;
-    position: relative; 
-    margin-top: 5%;
-    left: 45%; 
-    transform: translateX(-50%); 
+    position: absolute;
+    left: 10%; 
+    margin-top: 5%; 
     width: 100%;
-    max-width: 90%; 
+    max-width: 80%; 
     height: auto;
 }
 
@@ -97,11 +114,11 @@ main p {
     width: 100%; 
     max-width: 500px; 
     min-width: 200px;
-    padding: 20px 40px;
+    padding: 10px 20px;
     color: rgb(255, 255, 255);
     background-color: #ff9d00;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     transition: background-color 0.3s ease;
     display: flex;
@@ -115,20 +132,20 @@ main p {
 
 .Guitaranatomy h1{
     text-align: center;
-    margin-left: 20%;
-    margin-top: 810px;
+    margin-top: 600px;
 }
 
 .Guitaranatomy h2 {
     text-align: center;
-    margin-right: 10%;
+    font-size: 30px;
+    margin-top: 20px;
 }
 
 .Guitaranatomy img{
     position: absolute;
     align-items: center;
-    left: 0%;
-    width: 90%
+    width: 100%;
+    margin-top: 50px;
 }
 
 
@@ -140,8 +157,7 @@ main p {
     padding: 20px;
     background-color: #000000;
     border-radius: 8px;
-    margin-top: 57%;
-    margin-right: 240px;
+    margin-top: 60%;
     text-align: center;
 }
 
@@ -154,88 +170,87 @@ main p {
 
 .guitar-part h2 {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .guitar-part p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
     color: #ffffff;
     width: 90%;
-    margin-left: 30px;
 }
 
 .hr1 {
     margin-top: 100px;
-    margin-right: 210px;
+    margin: 50px;
 }
 
 
 .Tuning h1{
     text-align: center;
-    margin-left: 19%;
     margin-top: 100px;
     
 }
 
 .Tuning h2{
     text-align: center;
-    margin-right: 10%;
+    font-size: 30px;
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 .Tuning img{
     position: absolute;
     align-items: center;
-    left: 24%;
-    width: 40%;
+    left: 33%;
+    width: 35%;
 }
 
 .E{
-    float:left;
-    margin-top: 31.5%;
-    margin-left: 9%
+    position: absolute;
+    left: 13%;
+    top: 423%;
 }
 
 .A {
-    float:left;
-    margin-top: 22%;
-    margin-left: -14%;
+    position: absolute;
+    left: 13%;
+    top: 407%;
 }
 
 .D {
-    float:left;
-    margin-top: 13%;
-    margin-left: -14%;
+    position: absolute;
+    left: 14%;
+    top: 392%;
 }
 
 .G {
-    float: right;
-    margin-top: 13%;
-    margin-right: 23%;
-
+    position: absolute;
+    left: 66%;
+    top: 392%;
 }
 
 .B {
-    float: right;
-    margin-top: 6%;
-    margin-right: 23%;
+    position: absolute;
+    left: 66%;
+    top: 407%;
 }
 
 .High-E {
-    float: right;
-    margin-top: 300px;
-    margin-right: -15%;
+    position: absolute;
+    left: 67%;
+    top: 423%;
 }
 
 .tunerdescription{
     font-size: 30px;
-    margin-top: 55%;
+    margin-top: 50%;
     text-align: center;
-    width: 100%;
-    margin-left: -7%;
+    width: 90%;
     background-color: orange;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
+    margin-left: 70px
 }
 
 .tunerdescription p {
@@ -245,13 +260,13 @@ main p {
 
 .hr2 {
     margin-top: 100px;
-    margin-right: 210px;
+    margin: 50px;
 }
 
 .tuningpeg h1 {
     text-align: left;
-    margin-left: 14.5%;
     margin-top: 100px;
+    margin-left: 6%;
     width: 120%;
 }
 
@@ -259,16 +274,20 @@ main p {
     float: right;
     margin-top: -5%;
     margin-right: 10px;
+    width: 40%;
 }
 
 .tuning-guide{
     margin-top: 5%;
     text-align: left;
     align-items: left;
+    margin-left: 6%;
+    font-size: 20px;
+    width: 70%;
 }
 
 .tuning-guide p {
-    margin-bottom: 300px; /* Adjusts the gap below each paragraph */
+    margin-bottom: 300px; 
 }
 
 .tuning-guide li {
@@ -279,13 +298,13 @@ main p {
 }
 
 .hr3{
-    margin-top: 200px;
-    margin-right: 10%;
+    margin-top: 100px;
+    margin: 50px;
 }
 
 .Chords h1{
     text-align: center;
-    margin-left: 11%;
+    margin-left: 39%;
     margin-top: 100px;
     width: 65%;
 }
@@ -293,14 +312,15 @@ main p {
 .Chords img{
     width: 30%;
     float: left;
-    margin-top: -33%;
-    position: relative;
+    margin-top: -38%;
+    position: absolute;
+    left: 11%;
 
 }
 
 .Chordsdescription {
-    margin-left: 35%;
-    margin-top: 6%;
+    margin-left: 50%;
+    margin-top: 3%;
 
 }
 
@@ -318,22 +338,22 @@ main p {
 }
 
 .hr4{
-    margin-top: 250px;
-    margin-right: 10%;
+    margin-top: 20%;
+    margin: 50px;
 }
 
 
 .Finger h1{
     text-align: left;
-    margin-left: 21%;
     margin-top: 100px;
     width: 100%;
+    margin-left: 10%;
 }
 
 .Finger img{
-    width: 60%;
-    float: right;
-    position: relative;
+    width: 35%;
+    position: absolute;
+    left: 63%;
 }
 
 .finger-positioning{
@@ -341,223 +361,240 @@ main p {
 }
 
 .finger-positioning h2{
-    font-size: 40px;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 30px;
 }
 .finger-positioning p{
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 10%;
+    width: 50%;
 }
 
 .hr5{
-    margin-top: 150px;
-    margin-right: 10%;
+    margin-top: 100px;
+    margin: 50px;
 }
 
 .Strumming h1{
     text-align: center;
-    margin-left: 17%;
 }
 
 .Strumming1 img{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin: auto;
 
 }
 
 .Strumming1 h2{
     color: rgb(255, 119, 0);
     text-align: left;
-    margin-left: 7%;
-    font-size: 50px;
+    margin-left: 10%;
+    font-size: 35px;
 }
+
 
 .Strumming1 p{
     text-align: left;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    margin-left: 10%;
+    font-size: 25px;
 }
 
 .Strumming2 img{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin: auto;
+    margin-top: 20px;
 
 }
 
 .Strumming2 h2{
     color: rgb(255, 119, 0);
     text-align: left;
-    margin-left: 7%;
-    font-size: 50px;
+    margin-left: 10%;
+    font-size: 35px;
+    margin-top: 35px;
 }
 
 .Strumming2 p{
     text-align: left;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    margin-left: 10%;
+    font-size: 25px;
 }
 
 .Strumming3 img{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin: auto;
+    margin-top: 20px;
 
 }
 
 .Strumming3 h2{
     color: rgb(255, 119, 0);
     text-align: left;
-    margin-left: 7%;
-    font-size: 50px;
+    margin-left: 10%;
+    font-size: 35px;
+    margin-top: 35px;
 }
 
 .Strumming3 p{
     text-align: left;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    margin-left: 10%;
+    font-size: 25px;
 }
 
 .Strumming4 video{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin:auto;
+    margin-top: 20px;
 
 }
 
 .Strumming4 h2{
     color: rgb(255, 119, 0);
     text-align: left;
-    margin-left: 7%;
-    font-size: 50px;
+    margin-left: 10%;
+    font-size: 35px;
+    margin-top: 35px;
 }
 
 .Strumming4 p{
     text-align: left;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    margin-left: 10%;
+    font-size: 25px;
 }
 
 .Strumming5 video{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin:auto;
+    margin-top: 20px;
 
 }
 
 .Strumming5 h2{
     color: rgb(255, 119, 0);
     text-align: left;
-    margin-left: 7%;
-    font-size: 50px;
+    margin-left: 10%;
+    font-size: 35px;
+    margin-top: 35px;
 }
 
 .Strumming5 p{
     text-align: left;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    margin-left: 10%;
+    font-size: 25px;
 }
 
 .Strumming6 video{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin:auto;
+    margin-top: 20px;
 
 }
 
 .Strumming6 h2{
     color: rgb(255, 119, 0);
     text-align: left;
-    margin-left: 7%;
-    font-size: 50px;
+    margin-left: 10%;
+    font-size: 35px;
+    margin-top: 35px;
 }
 
 .Strumming6 p{
     text-align: left;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    margin-left: 10%;
+    font-size: 25px;
 }
 
 .hr6{
-    margin-top: 150px;
-    margin-right: 10%;
+    margin-top: 100px;
+    margin: 50px;
 }
 
 .Basic-chords h1{
     text-align: center;
-    margin-left: 17%;
 }
 
 .Basic-chords img{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin-left: 15%;
 
 }
 
 .Basic-chords p{
     text-align: left;
+    margin-left: 10%;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .Basic-chords video{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin:auto;
+    margin-top: 20px;
 }
 
 .hr7{
-    margin-top: 150px;
-    margin-right: 10%;
+    margin-top: 100px;
+    margin: 50px;
 }
 
 .First-song h1{
     text-align: center;
-    margin-left: 17%;
 }
 
 .First-song video{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin:auto;
+    margin-top: 20px;
 }
 
 .First-song p{
     text-align: left;
+    margin-left: 10%;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 
 .One-day h1{
-    margin-left: 5%;
-    font-size: 70px;
+    margin-left: 15%;
+    font-size: 40px;
     margin-top: 5%;
 }
 
 .One-day h2{
-    margin-left: 5%;
+    margin-left: 16%;
+    margin-top: 20px;
 }
 
 .One-day pre{
-    margin-left: 5%;
+    margin-left: 20%;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 .One-day span{
@@ -565,41 +602,44 @@ main p {
 }
 
 .hr8{
-    margin-top: 155px;
-    margin-right: 10%;
+    margin-top: 100px;
+    margin: 50px;
 }
 
 .Second-song h1{
     text-align: center;
-    margin-left: 17%;
 }
 
 .Second-song video{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin:auto;
+    margin-top: 20px;
 }
 
 .Second-song p{
     text-align: left;
+    margin-left: 10%;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 
 .Perfect h1{
-    margin-left: 5%;
-    font-size: 70px;
+    margin-left: 15%;
+    font-size: 40px;
     margin-top: 5%;
 }
 .Perfect h2{
-    margin-left: 5%;
+    margin-left: 16%;
+    margin-top: 20px;
 }
 
 .Perfect pre{
-    margin-left: 5%;
+    margin-left: 20%;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 .Perfect span{
@@ -607,54 +647,52 @@ main p {
 }
 
 .hr9{
-    margin-top: 150px;
-    margin-right: 10%;
+    margin-top: 100px;
+    margin: 50px;
 }
 
 .Other-chords h1 {
     text-align: center;
-    width: 90%;
+    
 }
 
 .Other-chords p{
     text-align: left;
+    margin-left: 10%;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .Other-chords img{
-    width: 80%;
+    width: 70%;
     display: flex;
     position: relative;
-    margin-left: 110px;
+    margin-left: 200px;
 
 }
 
 .hr10{
-    margin-top: 150px;
-    margin-right: 10%;
+    margin-top: 100px;
+    margin: 50px;
 }
 
 .Congrats h1 {
     text-align: center;
-    width: 90%;
 }
 
 .Congrats p{
     text-align: left;
+    margin-left: 10%;
     width: 80%;
-    margin-left: 7%;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 
 .section-container {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     justify-content: center;
     padding: 20px;
-    margin-right: 10%;
 }
 
 .homebutton{
@@ -703,12 +741,9 @@ footer {
     text-align: center;
     position: relative;
     bottom: 0;
+    
 }
 
-footer .footer-content {
-    margin-left: 80px;
-}
-
-.footer-content p{
-    margin-left: 17%;
+footer p{
+    font-size: 15px;
 }
