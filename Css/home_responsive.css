@@ -1,0 +1,1207 @@
+@media (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav ul{
+        font-size: 8px !important;
+    }
+
+    nav ul li{
+        padding: 0 6px;
+    }
+
+    .intro h1 {
+        font-size: 25px;
+        margin-top: -70px;
+        left: 6%;
+        width: 70%;
+    }
+
+    .intro p {
+        font-size: 13px;
+        margin-top: -20px;
+        width: 90%;
+        left: 6%;
+    }
+
+    .background img{
+        margin-top: -90px;
+        width: 600px;
+        margin-left: -190px;
+    }
+
+    .button{
+        top: 38%;
+        width: 60%;
+        max-width: 300px;
+        font-size: 12px;
+        padding: 5px;
+        left: 6%;
+    }
+
+    .button-container{
+        width: 50px;
+       
+        
+    }
+
+    .Des1{
+        margin-bottom: -60px;
+    
+    }
+
+    .Des1 h1{
+        font-size: 20px;
+        margin-top: -620px;
+        margin-left: -87px;
+        width: 250%;
+    }
+
+    .Des1 h2{
+        font-size: 18px;
+        margin-left: -87px;
+        width: 400%;
+
+    }
+
+    .Des1 p{
+        font-size: 15px;
+        margin-left: -86px;
+        width: 200%;
+    }
+
+    .Des1 img{
+        width: 170%;
+        position: relative;
+        left: -76px;
+        top: -257px;
+    }
+
+
+    .Des2{
+        margin-top: 0px;
+        text-align: left;
+        padding: 5px; 
+        padding-bottom: 150px;
+
+    }
+
+
+    .Des2 h1{
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 10px;
+        width: 500px;
+    }
+
+    .Des2 h2{
+        font-size: 18px;
+        margin-left: 10px;
+        width: 500px;
+    }
+
+    .Des2 p{
+        font-size: 15px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .Des2 img{
+        position: absolute;
+        top: 136%;
+        left: 5%;
+        width: 90%;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+    }
+
+    .section-container{
+        padding: 0px;
+        font-size: 8px;
+        gap: 4px;
+    }
+
+    .beginnerbutton {
+        width: 100%;
+    }
+
+    .intermediatebutton {
+        width: 62%;
+    }
+
+
+    footer .footer-content{
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav ul{
+        font-size: 8px !important;
+    }
+
+    .intro h1 {
+        font-size: 25px;
+        margin-top: -70px;
+        left: 6%;
+    }
+
+    .intro p {
+        font-size: 13px;
+        margin-top: -20px;
+        width: 90%;
+        left: 6%;
+    }
+
+    .background img{
+        margin-top: -40px;
+        width: 500px;
+    }
+
+    .button{
+        top: 30%;
+        width: 60%;
+        max-width: 300px;
+        font-size: 12px;
+        padding: 5px;
+        left: 6%;
+    }
+
+    .button-container{
+        width: 50px;
+       
+        
+    }
+
+    .Des1{
+        margin-bottom: -60px;
+    
+    }
+
+    .Des1 h1{
+        font-size: 20px;
+        margin-top: -680px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .Des1 h2{
+        font-size: 18px;
+        margin-left: 10px;
+        width: 120%;
+
+    }
+
+    .Des1 p{
+        font-size: 15px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .Des1 img{
+        width: 100%;
+        position: relative;
+        left: 5px;
+        top: -270px;
+    }
+
+
+    .Des2{
+        margin-top: 0px;
+        text-align: left;
+        padding: 5px; 
+        padding-bottom: 150px;
+
+    }
+
+
+    .Des2 h1{
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 110px;
+    }
+
+    .Des2 h2{
+        font-size: 18px;
+        margin-left: 110px;
+    }
+
+    .Des2 p{
+        font-size: 15px;
+        margin-left: 110px;
+        width: 60%;
+    }
+
+    .Des2 img{
+        position: absolute;
+        top: 143%;
+        left: 22%;
+        width: 60%;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+    }
+
+    .section-container{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .beginnerbutton {
+        width: 70%;
+    }
+
+    .intermediatebutton {
+        width: 47%;
+    }
+
+
+    footer .footer-content{
+        font-size: 10px;
+    }
+}
+
+/*Split Screen*/
+@media (min-width: 601px){
+
+    nav ul{
+        font-size: 12px !important;
+    }
+
+    .intro h1 {
+        font-size: 25px;
+        margin-top: -70px;
+    }
+
+    .intro p {
+        font-size: 15px;
+        width: 80%;
+        margin-top: -20px;
+    }
+
+    .background img{
+        margin-top: -120px;
+        width: 700px;
+    }
+
+    .button{
+        top: 35%;
+        width: 60%;
+        max-width: 300px;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .button-container{
+        width: 50px;
+       
+        
+    }
+
+    .Des1{
+        margin-bottom: -90px;
+    }
+
+    .Des1 h1{
+        font-size: 20px;
+        margin-top: -600px;
+        margin-left: -50px;
+        width: 50%;
+    }
+
+    .Des1 h2{
+        font-size: 18px;
+        margin-left: -50px;
+        width: 40%;
+    }
+
+    .Des1 p{
+        font-size: 15px;
+        margin-left: -50px;
+        width: 50%;
+    }
+
+    .Des1 img{
+        width: 70%;
+        position: relative;
+        left: 50%;
+        top: -380px;
+    }
+
+
+    .Des2{
+        margin-top: 0px;
+        text-align: left;
+        padding: 5px; 
+        padding-bottom: 30px;
+    }
+
+
+    .Des2 h1{
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .Des2 h2{
+        font-size: 18px;
+    }
+
+    .Des2 p{
+        font-size: 15px;
+    }
+
+    .Des2 img{
+        position: absolute;
+        top: 109%;
+        left: 5%;
+        width: 45%;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+    }
+
+    .section-container{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .beginnerbutton {
+        width: 70%;
+    }
+
+    .intermediatebutton {
+        width: 70%;
+    }
+
+
+    footer .footer-content{
+        font-size: 10px;
+    }
+}
+
+/*745px*/
+@media (min-width: 745px){
+
+   
+    nav ul{
+        font-size: 12px !important;
+    }
+
+    .intro h1 {
+        font-size: 25px;
+        margin-top: -70px;
+    }
+
+    .intro p {
+        font-size: 15px;
+        width: 80%;
+        margin-top: -20px;
+    }
+
+    .background img{
+        margin-top: -120px;
+        width: 800px;
+    }
+
+    .button{
+        top: 35%;
+        width: 60%;
+        max-width: 300px;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .button-container{
+        width: 50px;
+       
+        
+    }
+
+    .Des1{
+        margin-bottom: -90px;
+    }
+
+    .Des1 h1{
+        font-size: 20px;
+        margin-top: -600px;
+        margin-left: -50px;
+        width: 50%;
+    }
+
+    .Des1 h2{
+        font-size: 18px;
+        margin-left: -50px;
+        width: 40%;
+    }
+
+    .Des1 p{
+        font-size: 15px;
+        margin-left: -50px;
+        width: 50%;
+    }
+
+    .Des1 img{
+        width: 60%;
+        position: relative;
+        left: 50%;
+        top: -380px;
+    }
+
+
+    .Des2{
+        margin-top: 0px;
+        text-align: left;
+        padding: 5px; 
+        padding-bottom: 30px;
+    }
+
+
+    .Des2 h1{
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .Des2 h2{
+        font-size: 18px;
+    }
+
+    .Des2 p{
+        font-size: 15px;
+    }
+
+    .Des2 img{
+        position: absolute;
+        top: 107%;
+        left: 5%;
+        width: 45%;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+    }
+
+    .section-container{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .beginnerbutton {
+        width: 70%;
+    }
+
+    .intermediatebutton {
+        width: 70%;
+    }
+
+
+    footer .footer-content{
+        font-size: 10px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    nav ul{
+        font-size: 12px !important;
+    }
+
+    .intro h1 {
+        font-size: 28px;
+        margin-top: -70px;
+    }
+
+    .intro p {
+        font-size: 18px;
+        width: 50%;
+        margin-top: -20px;
+    }
+
+    .background img{
+        margin-top: -225px;
+        width: 850px;
+    }
+
+    .button{
+        top: 47%;
+        width: 60%;
+        max-width: 300px;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .button-container{
+        width: 50px;
+       
+        
+    }
+
+    .Des1{
+        margin-bottom: -90px;
+    }
+
+    .Des1 h1{
+        font-size: 23px;
+        margin-top: -510px;
+        margin-left: -50px;
+    }
+
+    .Des1 h2{
+        font-size: 20px;
+        margin-left: -50px;
+    }
+
+    .Des1 p{
+        font-size: 15px;
+        margin-left: -50px;
+        width: 50%;
+    }
+
+    .Des1 img{
+        width: 50%;
+        position: relative;
+        left: 60%;
+        top: -310px;
+    }
+
+
+    .Des2{
+        margin-top: 0px;
+        text-align: left;
+        padding: 5px; 
+        padding-bottom: 30px;
+    }
+
+
+    .Des2 h1{
+        font-size: 23px;
+        margin-top: 5%;
+    }
+
+    .Des2 h2{
+        font-size: 20px;
+    }
+
+    .Des2 p{
+        font-size: 15px;
+    }
+
+    .Des2 img{
+        position: absolute;
+        top: 106%;
+        left: 13%;
+        width: 35%;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+    }
+
+    .section-container{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .beginnerbutton {
+        width: 70%;
+    }
+
+    .intermediatebutton {
+        width: 70%;
+    }
+
+
+    footer .footer-content{
+        font-size: 10px;
+    }
+}
+
+/* Medium devices (tablets, 850px and up) */
+@media (min-width: 850px) {
+
+    nav ul{
+        font-size: 12px !important;
+    }
+
+    .intro h1 {
+        font-size: 28px;
+        margin-top: -70px;
+    }
+
+    .intro p {
+        font-size: 18px;
+        width: 50%;
+        margin-top: -20px;
+    }
+
+    .background img{
+        margin-top: -225px;
+        width: 850px;
+    }
+
+    .button{
+        top: 47%;
+        width: 60%;
+        max-width: 300px;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .button-container{
+        width: 50px;
+       
+        
+    }
+
+    .Des1{
+        margin-bottom: -90px;
+    }
+
+    .Des1 h1{
+        font-size: 23px;
+        margin-top: -510px;
+        margin-left: -50px;
+    }
+
+    .Des1 h2{
+        font-size: 20px;
+        margin-left: -50px;
+    }
+
+    .Des1 p{
+        font-size: 15px;
+        margin-left: -50px;
+        width: 50%;
+    }
+
+    .Des1 img{
+        width: 50%;
+        position: relative;
+        left: 60%;
+        top: -310px;
+    }
+
+
+    .Des2{
+        margin-top: 0px;
+        text-align: left;
+        padding: 5px; 
+        padding-bottom: 30px;
+    }
+
+
+    .Des2 h1{
+        font-size: 23px;
+        margin-top: 5%;
+    }
+
+    .Des2 h2{
+        font-size: 20px;
+    }
+
+    .Des2 p{
+        font-size: 15px;
+    }
+
+    .Des2 img{
+        position: absolute;
+        top: 106%;
+        left: 13%;
+        width: 35%;
+    }
+
+    .courses h1 {
+        font-size: 25px;
+    }
+
+    .section-container{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .beginnerbutton {
+        width: 70%;
+    }
+
+    .intermediatebutton {
+        width: 70%;
+    }
+
+
+    footer .footer-content{
+        font-size: 10px;
+    }
+}
+
+
+/* Medium devices (tablets, 900px and up) */
+@media (min-width: 900px) {
+
+    nav ul{
+        font-size: 13px !important;
+    }
+
+    .intro h1 {
+        font-size: 30px;
+        margin-top: -40px;
+    }
+
+    .intro p {
+        font-size: 15px;
+        width: 50%;
+        margin-top: -20px;
+    }
+
+    .button{
+        top: 45%;
+        width: 70%;
+        max-width: 300px;
+        font-size: 12px;
+    }
+
+    .background img{
+        margin-top: -170px;
+        width: 1000px;
+
+    }
+
+
+    .Des1{
+        margin-bottom: -60px;
+    }
+
+    .Des1 h1{
+        font-size: 25px;
+        margin-top: -410px;
+        margin-left: 1px;
+    }
+
+    .Des1 h2{
+        font-size: 20px;
+        margin-left: 1px;
+    }
+
+    .Des1 p{
+        font-size: 15px;
+        margin-left: 1px;
+        width: 50%;
+    }
+
+    .Des1 img{
+        width: 40%;
+        position: relative;
+        left: 60%;
+        top: -240px;
+    }
+
+    .Des2{
+        margin-top: 0px;
+        text-align: left;
+        padding: 5px; 
+        padding-bottom: 50px;
+    }
+
+
+    .Des2 h1{
+        font-size: 25px;
+        margin-top: 5%;
+    }
+
+    .Des2 h2{
+        font-size: 20px;
+    }
+
+    .Des2 p{
+        font-size: 15px;
+    }
+
+
+    .Des2 img{
+        position: absolute;
+        top: 114%;
+        left: 13%;
+        width: 35%;
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+
+    nav ul{
+        font-size: 14px !important;
+    }
+
+    .intro h1 {
+        font-size: 30px;
+        margin-top: -40px;
+    }
+
+    .intro p {
+        font-size: 15px;
+        width: 50%;
+        margin-top: -20px;
+    }
+
+    .button{
+        top: 45%;
+        width: 70%;
+        max-width: 300px;
+        font-size: 12px;
+    }
+
+    .button-container{
+        width: 70%;
+        
+    }
+
+    .background img{
+        margin-top: -160px;
+        width: 1200px;
+
+    }
+
+    .Des1{
+        margin-bottom: 10px;
+    }
+
+    .Des1 h1{
+        font-size: 25px;
+        margin-top: -320px;
+        margin-left: 1px;
+    }
+
+    .Des1 h2{
+        font-size: 20px;
+        margin-left: 1px;
+    }
+
+    .Des1 p{
+        font-size: 15px;
+        margin-left: 1px;
+    }
+
+    .Des1 img{
+        width: 45%;
+        position: relative;
+        left: 60%;
+        top: -120px;
+    }
+
+    .Des2{
+        margin-top: 0px;
+        text-align: left;
+        padding: 5px; 
+        padding-bottom: 60px;
+    }
+
+
+    .Des2 h1{
+        font-size: 25px;
+        margin-top: 5%;
+    }
+
+    .Des2 h2{
+        font-size: 20px;
+    }
+
+    .Des2 p{
+        font-size: 15px;
+    }
+
+    .Des2 img{
+        position: absolute;
+        top: 146%;
+        left: 13%;
+        width: 35%;
+    }
+
+    .courses h1 {
+        font-size: 30px;
+    }
+
+    .section-container{
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .beginnerbutton {
+        width: 70%;
+    }
+
+    .intermediatebutton {
+        width: 70%;
+    }
+
+
+    footer .footer-content{
+        font-size: 12px;
+    }
+
+}
+
+/* Extra large devices (1200px and up) */
+@media (min-width: 1200px) {
+    
+
+    nav ul{
+        font-size: 16px !important;
+    }
+
+    /*Introduction Section*/
+
+.intro{
+    min-height: 100vh;               
+    display: flex;                  
+    flex-direction: column;
+}
+
+.intro h1{
+    color: rgb(246, 121, 4);
+    font-size: 45px; 
+    position: relative;
+    top: 120px;
+    left: 11%;
+
+}
+
+.intro p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;  
+    width: 45%;
+    position: relative;
+    top: 150px;
+    left: 11%;
+}
+
+.background img{
+    width: 100%;
+    margin-top: -19%;
+    z-index: -1;
+}
+
+/*Button in the Intro*/
+
+.button-container {
+    display: flex;
+    justify-items: center;
+    
+    width: 100%;
+    max-width: 80%; 
+    height: auto;
+}
+
+.button {
+    text-decoration: none;
+    width: 100%; 
+    max-width: 500px; 
+    min-width: 200px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff9d00;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 11%; 
+    top: 58%; 
+}
+
+.button:hover {
+    background-color: #020100;
+}
+
+
+/*End of Intro Section*/
+
+
+/*Description 1 Section*/
+
+.Des1 {
+    text-align: left;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.Des1 h1 {
+    text-align: left;
+    margin-top: -320px;
+    width: 100%;
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+.Des1 h2{
+    text-align: left;
+    width: 100%;
+    margin-left: 5%;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.Des1 p{
+    text-align: left;
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.Des1 img{
+    width: 40%;
+    position: relative;
+    left: 55%;
+    top: 123%;
+}
+/*End of Description 1*/
+
+
+/*Description 2 Section*/
+
+.Des2 {
+    margin-top: 60px;
+    text-align: left;
+    background-color: #9b6105;
+    padding: 3px; 
+    padding-bottom: 90px;
+}
+
+
+.Des2 h1 {
+    text-align: left;
+    color: #ffffff;
+    width: 40%;
+    margin-left: 56%;
+    font-size: 40px;
+    margin-top: -320px;
+}
+
+.Des2 h2{
+    text-align: left;
+    width: 40%;
+    margin-left: 56%;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.Des2 p{
+    text-align: left;
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 56%;
+    font-size: 20px;
+}
+
+.Des2 img{
+    width: 40%;
+    position: relative;
+    left: 8%;
+}
+
+/*End of Description 2*/
+
+.hr1{
+    margin-top: 15%;
+    margin: 50px
+}
+
+
+/*Course Section*/
+
+.courses h1{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.section-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+/*Button for Courses*/
+
+.beginnerbutton{
+    width: 90%;
+    padding: 70px;
+    background-color: #027d08;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.intermediatebutton{
+    width: 90%;
+    padding: 70px;
+    background-color: #a69500;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.beginnerbutton:hover {
+    background-color: #015403;
+    cursor: pointer;
+}
+.intermediatebutton:hover {
+    background-color: #606302;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+footer .footer-content {
+    font-size: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.hr2{
+    margin-top: 5%;
+    margin: 50px;
+}
+
+}

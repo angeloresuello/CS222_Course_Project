@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Web Form</title>
+    <link href="Css/contact_styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <section>
+    <nav>
+        <ul>
+            <li><a href="home.html"><img src="Images/Title.png" class="nav-logo"></a></li>
+            <li><a href="beginners.html">Beginner's Section</a></li>
+            <li><a href="intermediates.html">Intermediate's Section</a</li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section>
+    <div class="container">
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post" target="_self">
+            <h1>Contact Us</h1>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="gender">Your Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="nonbinary">Non-binary</option>
+                    <option value="prefer_not_to_say">Prefer not to say</option>
+                </select>
+    
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="background">
+            <img src="Images/Guitarcover5.png">
+        </div>
+</section>
+</body>
+</html>

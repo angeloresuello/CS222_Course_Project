@@ -1,0 +1,1106 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    color: rgb(246, 121, 4);
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+/*Navigation*/
+nav {
+    width: 100%;
+    padding: 7px;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    font-size: 16px!important;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.nav-logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+/*Introduction Section*/
+
+.intro{
+    min-height: 100vh;               
+    display: flex;                  
+    flex-direction: column;
+    text-align: center;
+}
+
+.intro h1{
+    color: rgb(255, 140, 0);
+    font-size: 50px; 
+    position: relative;
+    top: 150px;
+    text-shadow: 
+        -1px -1px 0 black, /* Top-left */
+         1px -1px 0 black, /* Top-right */
+        -1px  1px 0 black, /* Bottom-left */
+         1px  1px 0 black; /* Bottom-right */
+       
+}
+
+.intro p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;  
+    width: 60%;
+    position: relative;
+    top: 190px;
+    left: 20%;
+    text-shadow: 
+        -1px -1px 0 black, /* Top-left */
+         1px -1px 0 black, /* Top-right */
+        -1px  1px 0 black, /* Bottom-left */
+         1px  1px 0 black; /* Bottom-right */
+    
+}
+
+
+.background img{
+    width: 100%;
+    margin-top: -250%;
+    margin-bottom: 70px;
+    z-index: -1;
+}
+
+/*Button for Intro*/
+
+.button-container {
+    display: flex;
+    justify-items: center;
+    
+    width: 100%;
+    max-width: 80%; 
+    height: auto;
+}
+
+.button {
+    text-decoration: none;
+    width: 100%; 
+    max-width: 500px; 
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #ff9d00;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 33%; 
+    top: 65%; 
+}
+
+.button:hover {
+    background-color: #020100;
+}
+
+
+/*Review Chords Section*/
+
+.Review{
+    margin-top: -10px
+}
+
+.Review h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.Review h2 { 
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+  /*Strumming Section*/
+
+.Strum {
+    margin-top: 40px;
+}
+
+.Strum h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+
+  /* New Slideshow Container */
+.new-slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* New Slides */
+.new-mySlides {
+    display: none;
+}
+
+/* New Next & Previous buttons */
+.new-prev, .new-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.new-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* New dots */
+.new-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.new-active, .new-dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation for new slideshow */
+.new-fade {
+    animation-name: newFade;
+    animation-duration: 1.5s;
+}
+
+@keyframes newFade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/*End*/
+
+.hr1 {
+    margin-top: 100px;
+    margin: 50px;
+}
+
+/*Barre Chords Section*/
+
+.BarreChords h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.First-Step {
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 50px;
+    background-color: rgb(134, 66, 3);
+    padding: 40px;
+    margin-right: 50px;
+    padding-bottom: 120px;
+}
+
+.First-Step h1 {
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+}
+
+.First-Step p {
+    width: 50%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.First-Step img {
+    position: relative;
+    left: 59%;
+    margin-top: -270px;
+    padding: 0;
+    width: 40%;
+    margin-bottom: -90px;
+}
+
+
+.Second-Step {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+    background-color: rgb(134, 66, 3);
+    padding: 40px;
+    margin-right: 50px;
+    padding-bottom: 120px;
+}
+
+.Second-Step h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 80px;
+    width: 50%;
+}
+
+.Second-Step p {
+    width: 50%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Second-Step img {
+    position: relative;
+    left: 59%;
+    margin-top: -270px;
+    padding: 0;
+    width: 40%;
+    margin-bottom: -90px;
+}
+
+
+.Third-Step {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+    background-color: rgb(134, 66, 3);
+    padding: 40px;
+    margin-right: 50px;
+    padding-bottom: 120px;
+}
+
+.Third-Step h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 80px;
+    width: 50%;
+}
+
+.Third-Step p {
+    width: 50%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Third-Step img {
+    position: relative;
+    left: 59%;
+    margin-top: -220px;
+    padding: 0;
+    width: 40%;
+    margin-bottom: -90px;
+}
+
+
+.Fourth-Step {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+    background-color: rgb(134, 66, 3);
+    padding: 40px;
+    margin-right: 50px;
+    padding-bottom: 120px;
+}
+
+.Fourth-Step h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 80px;
+    width: 50%;
+}
+
+.Fourth-Step p {
+    width: 50%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Fourth-Step img {
+    position: relative;
+    left: 59%;
+    margin-top: -250px;
+    padding: 0;
+    width: 40%;
+    margin-bottom: -90px;
+}
+
+.Fifth-Step {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+    background-color: rgb(134, 66, 3);
+    padding: 40px;
+    margin-right: 50px;
+    padding-bottom: 120px;
+}
+
+.Fifth-Step h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 80px;
+    width: 50%;
+}
+
+.Fifth-Step p {
+    width: 50%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Fifth-Step img {
+    position: relative;
+    left: 59%;
+    margin-top: -205px;
+    padding: 0;
+    width: 40%;
+    margin-bottom: -90px;
+}
+
+.hr2{
+    margin-top: 100px;
+    margin: 50px;
+}
+
+.Chordset{
+    margin-top: 50px;
+}
+
+.Chordset h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Chordset img{
+    width: 70%;
+    margin-top: 60px;
+    position: relative;
+    left: 15%;
+}
+
+.Chordset p{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 70px;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.hr3 {
+    margin-top: 100px;
+    margin: 50px;
+}
+
+/*Seventh Chord Section*/
+
+.Seventh-Chords h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Seventh-Chords p{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 70px;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.Seventh-Chords img{
+    width: 80%;
+    position: relative;
+    left: 160px;
+}
+
+.hr4 {
+    margin-top: 50px;
+    margin: 50px;
+}
+
+/*Finger picking section*/
+
+.fingerpicking h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.fingerpicking h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.Inst1 img{
+    width: 70%;
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+
+.Inst1 h1 {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 230px;
+
+}
+
+.Inst1 h2{
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.Inst2 h1 {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 230px;
+}
+
+.Inst2 h2{
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.Inst2 img{
+    width: 40%;
+    position: relative;
+    left: 450px;
+    top: 20px;
+}
+
+.Inst3 h1 {
+    margin-top: 80px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 230px;
+}
+
+.Inst3 h2{
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.Inst3 img{
+    width: 40%;
+    position: relative;
+    left: 450px;
+    top: 20px;
+}
+
+
+.Inst4 h1 {
+    margin-top: 80px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 230px;
+}
+
+.Inst4 h2{
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.Inst4 img{
+    width: 40%;
+    position: relative;
+    left: 450px;
+    top: 20px;
+}
+
+.Inst5 h1 {
+    margin-top: 80px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 230px;
+}
+
+.Inst5 h2{
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.Inst5 p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.Inst5 img{
+    width: 70%;
+    position: relative;
+    left:250px;
+}
+
+
+.Inst6 h1 {
+    margin-top: 80px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 230px;
+}
+
+.Inst6 h2{
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.Inst6 p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.Inst6 ul{
+    color: white;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.Inst6 ul li{
+    margin-top: 40px;
+}
+
+.Inst6 img{
+    width: 80%;
+    position: relative;
+    left: 170px;
+    top: 20px;
+}
+
+.hr5 {
+    margin-top: 50px;
+    margin: 50px;
+}
+
+/*Finger Picking pattern section*/
+
+.Tabs h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Tabs img {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 50px;
+}
+
+.Tabs p{
+    text-align: left;
+    margin-top: 70px;
+    width: 60%;
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+/*Happy birthday section*/
+
+.hr6 {
+    margin-top: 50px;
+    margin: 50px;
+}
+
+.happybirthday h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.happybirthday p {
+    text-align: left;
+    margin-top: 50px;
+    width: 60%;
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+.happybirthday img{
+    width: 70%;
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+
+.hr7 {
+    margin-top: 50px;
+    margin: 50px;
+}
+
+.silence h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.silence p {
+    text-align: center;
+    margin-top: 50px;
+    width: 60%;
+    font-size: 25px;
+    margin-left: 300px;
+}
+
+.silence img{
+    width: 70%;
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+
+
+/*Practice Section*/
+
+.Practice h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Practice p{
+    text-align: left;
+    margin-top: 50px;
+    width: 70%;
+    font-size: 25px;
+    margin-left: 245px;
+}
+
+.NightChanges h1{
+    margin-left: 15%;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.NightChanges h2{
+    margin-left: 16%;
+    margin-top: 20px;
+    color: white;
+}
+
+.NightChanges pre{
+    margin-left: 20%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.NightChanges span{
+    color: orange;
+}
+
+
+.Payphone h1{
+    margin-left: 15%;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.Payphone h2{
+    margin-left: 16%;
+    margin-top: 20px;
+    color: white;
+}
+
+.Payphone pre{
+    margin-left: 20%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.Payphone span{
+    color: orange;
+}
+
+.hr8 {
+    margin-top: 50px;
+    margin: 50px;
+}
+
+.hr9{
+    margin-top: 50px;
+    margin: 50px;
+}
+
+/*Seventh Chords songs section*/
+
+.Yesterday h1{
+    margin-left: 15%;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.Yesterday h2{
+    margin-left: 16%;
+    margin-top: 20px;
+    color: white;
+}
+
+.Yesterday pre{
+    margin-left: 20%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.Yesterday span {
+    color: orange;
+}
+
+
+.IsntSheLovely h1{
+    margin-left: 15%;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.IsntSheLovely h2{
+    margin-left: 16%;
+    margin-top: 20px;
+    color: white;
+}
+
+.IsntSheLovely pre{
+    margin-left: 20%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.IsntSheLovely span {
+    color: orange;
+}
+
+.hr10{
+    margin-top: 50px;
+    margin: 50px;
+}
+
+
+.hr11{
+    margin-top: 50px;
+    margin: 50px;
+}
+
+/*Guitar-tips Section*/
+
+.guitar-tips h1{
+    margin-left: 15%;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.guitar-tips li{
+    color: white;
+    margin-left: 270px;
+    font-size: 20px;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.hr12{
+    margin-top: 50px;
+    margin: 50px;
+}
+
+/*Schedule*/
+
+.schedule-container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+}
+
+th {
+    background-color: #fe7505;
+    color: rgb(255, 240, 240);
+}
+
+tr:hover {
+    background-color: #ff6a00;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 8px;
+    }
+}
+
+/*Congrats Section*/
+
+.Congrats h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.Congrats p{
+    text-align: left;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.section-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.homebutton{
+    width: 90%;
+    padding: 20px;
+    background-color: #ba3200;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.beginnerbutton{
+    width: 90%;
+    padding: 20px;
+    background-color: #027d08;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.homebutton:hover {
+    background-color: #6c3101;
+    cursor: pointer;
+}
+.beginnerbutton:hover {
+    background-color: #015403;
+    cursor: pointer;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    
+}
+
+footer p{
+    font-size: 15px;
+}

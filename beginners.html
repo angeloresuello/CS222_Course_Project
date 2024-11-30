@@ -5,26 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beginner's Section</title>
     <link rel="stylesheet" href="Css/beginners_styles.css">
+    <link rel="stylesheet" href="Css/beginners_responsive.css">
+    <script src="Javascript/beginner.js" defer></script>
 </head>
 <body>
+    <section class="intro">
     <nav>
         <ul>
             <li><a href="home.html"><img src="Images/Title.png" class="nav-logo"></a></li>
             <li><a href="beginners.html">Beginner's Section</a></li>
             <li><a href="intermediates.html">Intermediate's Section</a</li>
-            <li><a href="#Songs">Songs</a></li>
-            <li><a href="#Resources">Resources</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact us</a></li>
         </ul>
     </nav>
 
-    <main>
-        <div class="intro">
+    <div class="intro">
         <h1>Welcome to the Beginner's Section</h1>
         <p>You’ll find everything you need to start playing the guitar from scratch. We’ll cover the basics, from how to hold and tune your guitar to learning simple chords and strumming patterns. Each lesson is designed to be clear and approachable, so you can go at your own pace.</p>
     </div>
+
+    <div class="background">
+    <img src="Images/Guitarcover2.png">
+    </div>
+
     <div class="button-container">
         <a href="#Guitaranatomy" class="button">Let's Start!</a>
     </div>
+    </section>
 
     <section id="Guitaranatomy">
     <div class="Guitaranatomy">
@@ -89,11 +97,13 @@
     <hr>
     </div>
 
+    <section>
     <div class="Tuning">
         <h1>Part 2: Tuning</h1>
         <h2>Tuning your guitar is the first step to making it sound right. The standard tuning for a guitar, from the thickest to the thinnest string, is E-A-D-G-B-E.</h2>
         <img src="Images/Guitartuning.png">    
     </div>
+    </section>
     
     <section class="tuner">
 
@@ -205,6 +215,7 @@
 
     <hr class="hr5">
 
+    <section class="Strum">
     <div class="Strumming">
         <h1>Part 4: Strumming</h1>
     </div>
@@ -244,6 +255,7 @@
         <h2>6. Strumming with a Pattern along with a G chord</h2>
         <p>To play the strumming pattern of “down, down, up, up, down, down”, start by forming the G chord. Begin with two downstrokes, strumming all the strings. Follow with two light upstrokes, then another downstroke, and finish with one last downstroke. Keep your wrist relaxed and stay consistent with the rhythm to create a smooth, flowing sound.</p>
     </div>
+    </section>
 
     <hr class="hr6">
 
@@ -382,8 +394,6 @@
 
 
 
-
-
     <div class="Perfect">
         <h1>Perfect - Ed Sheeran</h1>
     
@@ -500,12 +510,185 @@
     <hr class="hr9">
 
     <div class="Other-chords">
-        <h1>Final Part: Practicing Other Chords</h1>
-        <p>To expand your chord knowledge, practice the A, E, Dm, and Am chords. A creates a bright sound, while E offers a full resonance. Dm gives a soft, emotional tone, and Am adds a mellow, minor feel. Mastering these chords will increase your versatility and allow you to play a wider range of songs.</p>
-        <img src="Images/OtherChords.png">
+        <h1>Part 8: Practicing Other Chord Progressions and Strumming</h1>
+        <p>These progressions combine chords like G, Em, C, D, Am, E, Dm, and A to help you build muscle memory and improve transitions. Use them to refine your strumming, timing, and confidence as you play.</p>
     </div>
 
+   
+
+    <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 6</div>
+              <img src="Images/Chordset1.png" style="width:100%">
+              <div class="text">Popular in pop and rock songs</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 6</div>
+              <img src="Images/Chordset2.png" style="width:100%">
+              <div class="text">Creates a softer, minor feel</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 6</div>
+              <img src="Images/Chordset3.png" style="width:100%">
+              <div class="text">Works well with a bluesy strum</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="Images/Chordset4.png" style="width:100%">
+                <div class="text">Evokes a reflective or melancholic mood</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="Images/Chordset5.png" style="width:100%">
+                <div class="text">Great for upbeat, cheerful tunes</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="Images/Chordset6.png" style="width:100%">
+                <div class="text">Adds a haunting or dramatic vibe</div>
+              </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 'slideshow1')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'slideshow1')">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 'slideshow1')"></span>
+            <span class="dot" onclick="currentSlide(2, 'slideshow1')"></span>
+            <span class="dot" onclick="currentSlide(3, 'slideshow1')"></span>
+            <span class="dot" onclick="currentSlide(4, 'slideshow1')"></span>
+            <span class="dot" onclick="currentSlide(5, 'slideshow1')"></span>
+            <span class="dot" onclick="currentSlide(6, 'slideshow1')"></span>
+          </div>
+
+    <section id="Strum">
+        <div class="Strum">
+            <h1>Strumming</h1>
+        </div>
+    </section>
+
+    <section id="NewSlideshow">
+      <div class="new-slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="new-mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img src="Images/Strumpattern1.png" style="width:100%">
+              <div class="text">For upbeat songs with a moderate tempo, like pop or folk</div>
+          </div>
+  
+          <div class="new-mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="Images/Strumpattern2.png" style="width:100%">
+              <div class="text">For faster-paced songs with a consistent rhythm, like pop or rock</div>
+          </div>
+  
+          <div class="new-mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="Images/Strumpattern3.png" style="width:100%">
+              <div class="text">Remember Perfect by Ed sheeran?</div>
+          </div>
+  
+          <div class="new-mySlides fade">
+              <div class="numbertext">4 / 4</div>
+              <img src="Images/Strumpattern4.png" style="width:100%">
+              <div class="text">For songs with a lively, upbeat tempo</div>
+          </div>
+  
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1, 'slideshow2')">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 'slideshow2')">&#10095;</a>
+      </div>
+      <br>
+  
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="new-dot" onclick="currentSlide(1, 'slideshow2')"></span>
+        <span class="new-dot" onclick="currentSlide(2, 'slideshow2')"></span>
+        <span class="new-dot" onclick="currentSlide(3, 'slideshow2')"></span>
+        <span class="new-dot" onclick="currentSlide(4, 'slideshow2')"></span>
+      </div>
+  </section>
+
     <hr class="hr10">
+
+    <div class="beginner-tips">
+        <h1>Tips for the Beginner Section</h1>
+        <ol>
+            <li><strong>Focus on Basic Chords</strong> – Practice open chords like G, C, D, E, and more until you can switch between them smoothly.</li>
+            <li><strong>Strumming Patterns</strong> – Start with simple downstrokes, then move on to basic up and down patterns.</li>
+            <li><strong>Practice Regularly</strong> – Consistent practice is key to building muscle memory and improving your playing.</li>
+            <li><strong>Use a Metronome</strong> – Keep time with a metronome to improve your rhythm and timing.</li>
+            <li><strong>Learn Simple Songs</strong> – Apply your chord knowledge by learning easy songs that use basic chords.</li>
+            <li><strong>Keep Your Hands Relaxed</strong> – Tension can slow you down, so stay relaxed while playing.</li>
+            <li><strong>Master Finger Placement</strong> – Focus on clean sounds by pressing the strings down firmly and in the right spots.</li>
+            <li><strong>Don’t Rush</strong> – Take your time and focus on quality, not speed. Gradually increase the tempo as you get comfortable.</li>
+        </ol>
+    </div>
+
+    <hr class="hr11">
+
+    <div class="schedule-container">
+        <h1>Guitar Practice Schedule for Beginners</h1>
+        <p>Suggested weekly practice schedule for college students and those with busy work schedules.</p>
+        <table class="practice-schedule">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Practice Focus</th>
+                    <th>Time (Minutes)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Guitar Anatomy & Tuning</td>
+                    <td>15-20</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Reading Chords & Strumming</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Practice Basic Chords (G, Em, C, D)</td>
+                    <td>20-25</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>First Song: One Day (Matishayu)</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Second Song: Perfect (Ed Sheeran)</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Practice Other Chord Progressions & Strumming (A, Am, Dm, E)</td>
+                    <td>20-25</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Review & Play Through Songs/Chords</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <hr class="hr11">
 
     <div class="Congrats">
         <h1>Congratulations on Completing the Beginner's Section!</h1>

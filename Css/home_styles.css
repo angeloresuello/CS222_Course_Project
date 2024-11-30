@@ -12,6 +12,15 @@ html{
    
 }
 
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
 h1 {
     color: rgb(246, 121, 4);
 }
@@ -24,32 +33,11 @@ p{
     color: white;
 }
 
-img {
-    max-width: 100%;
-    max-height: auto;
-}
-
-
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('/Images/Guitarcover.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;               
-    display: flex;                  
-    flex-direction: column;
-    background-color: black;
-    overflow-x: hidden;
-}
-
-
+/*Navigation*/
 nav {
-    background-color: black;
     width: 100%;
     padding: 7px;
+    z-index: 10;
 }
 
 nav ul {
@@ -86,55 +74,58 @@ nav ul li a:hover {
     padding: 0;
 }
 
-main {
-    position: absolute;
-    color: #fff;
-    top: 78px;
-    
-}
+/*Introduction Section*/
 
-header {
-    background-image: url('/Images/Guitarcover.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;      
-    margin: 0;
-    padding: 0;         
-    display: flex;                   
+.intro{
+    min-height: 100vh;               
+    display: flex;                  
     flex-direction: column;
-    background-color: black;
 }
 
-header h1 {
+.intro h1{
     color: rgb(246, 121, 4);
-    font-size: 45px;  /* Adjusted for better readability */
-    top: 15%;
+    font-size: 45px; 
+    position: relative;
+    top: 120px;
     left: 11%;
-    position: absolute;
-    z-index: 1;
+    text-shadow: 
+        -1px -1px 0 black, /* Top-left */
+         1px -1px 0 black, /* Top-right */
+        -1px  1px 0 black, /* Bottom-left */
+         1px  1px 0 black; /* Bottom-right */
+
 }
 
-header p {
-    font-weight: bold;
-    font-size: 20px;  /* Adjusted for better readability */
-    width: 50%!important;
+.intro p{
     color: white;
-    position: absolute;
-    top: 25%;
+    font-weight: bold;
+    font-size: 20px;  
+    width: 45%;
+    position: relative;
+    top: 150px;
     left: 11%;
-    z-index: 1;
+    text-shadow: 
+        -1px -1px 0 black, /* Top-left */
+         1px -1px 0 black, /* Top-right */
+        -1px  1px 0 black, /* Bottom-left */
+         1px  1px 0 black; /* Bottom-right */
 }
 
+.background img{
+    max-width: 5000px;
+    width: 100%;
+    margin-top: -19%;
+    z-index: -1;
+}
+
+/*Button in the Intro*/
 
 .button-container {
     display: flex;
     justify-items: center;
-    position: absolute; 
-    top: 50%!important;
-    left: 11%!important;  
+    
     width: 100%;
-    max-width: 90%; 
+    max-width: 80%; 
     height: auto;
 }
 
@@ -142,79 +133,99 @@ header p {
     text-decoration: none;
     width: 100%; 
     max-width: 500px; 
-    min-width: 200px;
-    padding: 20px 40px;
+    padding: 10px 20px;
     color: rgb(255, 255, 255);
     background-color: #ff9d00;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     transition: background-color 0.3s ease;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 11%; 
+    top: 58%; 
 }
 
 .button:hover {
     background-color: #020100;
 }
 
+
+/*End of Intro Section*/
+
+
+/*Description 1 Section*/
+
 .Des1 {
-    margin-top: 100px;
-    background-color:black;
     text-align: left;
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .Des1 h1 {
     text-align: left;
-    margin-top: 100px;
+    margin-top: -320px;
     width: 100%;
-    margin-left: 7%;
-    font-size: 45px;
+    margin-left: 5%;
+    font-size: 40px;
+    max-width: 500%;
 }
 
 .Des1 h2{
     text-align: left;
     width: 100%;
-    margin-left: 7%;
-    font-size: 35px;
+    margin-left: 5%;
+    font-size: 30px;
     margin-top: 10px;
+    max-width: 500%;
 }
 
 .Des1 p{
     text-align: left;
     margin-top: 10px;
     width: 40%;
-    margin-left: 7%;
+    margin-left: 5%;
     font-size: 20px;
+    max-width: 500%;
 }
 
 .Des1 img{
     width: 40%;
-    position: absolute;
+    max-width: 600%;
+    position: relative;
     left: 55%;
+    top: 123%;
 }
+/*End of Description 1*/
+
+
+/*Description 2 Section*/
 
 .Des2 {
-    margin-top: 250px;
-    background-color: black;
+    margin-top: 60px;
     text-align: left;
+    background-color: #9b6105;
+    padding: 3px; 
+    padding-bottom: 90px;
 }
 
 
 .Des2 h1 {
     text-align: left;
-    margin-top: 22%;
+    color: #ffffff;
     width: 40%;
-    margin-left: 60%;
-    font-size: 45px;
+    margin-left: 56%;
+    font-size: 40px;
+    margin-top: -320px;
 }
 
 .Des2 h2{
     text-align: left;
     width: 40%;
-    margin-left: 60%;
-    font-size: 35px;
+    margin-left: 56%;
+    font-size: 30px;
     margin-top: 10px;
 }
 
@@ -222,26 +233,30 @@ header p {
     text-align: left;
     margin-top: 10px;
     width: 30%;
-    margin-left: 60%;
+    margin-left: 56%;
     font-size: 20px;
 }
 
 .Des2 img{
     width: 40%;
-    position: absolute;
+    position: relative;
     left: 8%;
-    top: 165%;
 }
 
+/*End of Description 2*/
+
 .hr1{
-    margin-top: 15%!important;
+    margin-top: 15%;
     margin: 50px
 }
 
+
+/*Course Section*/
+
 .courses h1{
-    margin-top: 10px;
+    margin-top: 70px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .section-container {
@@ -250,14 +265,15 @@ header p {
     gap: 20px;
     justify-content: center;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 15px;
 }
+
+/*Button for Courses*/
 
 .beginnerbutton{
     width: 90%;
     padding: 70px;
-    background-color: #008106;
+    background-color: #027d08;
     color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -267,13 +283,12 @@ header p {
     flex-direction: column;
     align-items: center;
     transition: background-color 0.3s ease;
-    font-size: 20px;
 }
 
 .intermediatebutton{
     width: 90%;
     padding: 70px;
-    background-color: #c9b502;
+    background-color: #a69500;
     color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -283,7 +298,6 @@ header p {
     flex-direction: column;
     align-items: center;
     transition: background-color 0.3s ease;
-    font-size: 20px;
 }
 
 .beginnerbutton:hover {
